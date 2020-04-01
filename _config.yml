@@ -22,7 +22,7 @@ email: ''
 description: >
 
 baseurl: ''              # the subpath of your site, e.g. /blog. If there is no subpath for your site, use an empty string ""
-url: https://inferentialthinking.com?jupyterhub=10.18.22.230:32471 # the base hostname & protocol for your site, e.g. http://example.com
+url: https://inferentialthinking.com?hub=10.18.22.230:32471 # the base hostname & protocol for your site, e.g. http://example.com
 
 
 #######################################################################################
@@ -52,7 +52,7 @@ use_jupyterlab: false                     # If 'true', interact links will use J
 
 # Jupyterhub link settings
 use_jupyterhub_button: true              # If 'true', display a button that will direct users to a JupyterHub (that you provide)
-jupyterhub_url: ''                     # The URL for your JupyterHub. If no URL, use ""
+jupyterhub_url: 10.18.22.230:32471                     # The URL for your JupyterHub. If no URL, use ""
 jupyterhub_interact_text: Interact             # The text that interact buttons will contain.
 
 # Binder link settings
